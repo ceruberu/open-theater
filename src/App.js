@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Theater from './components/Theater';
 import Footer from './components/Footer';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -9,8 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <body>
-        </body>
+        <div id="content-wrapper">
+          <Theater />
+        </div>
         <Footer />
       </div>
     );
