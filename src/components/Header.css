@@ -1,0 +1,18 @@
+#header-wrapper {
+  display: flex;
+}
+
+#header {
+  display: flex;
+  max-width: 1200px;
+}
+
+#header-left {
+  display: flex;
+  
+}
+
+#header-right {
+  display: flex;
+  max-width: 1200px;
+}
