@@ -1,18 +1,8 @@
-#header-wrapper {
-  display: flex;
+.header {
+  height: 65px;
 }
 
-#header {
-  display: flex;
-  max-width: 1200px;
-}
-
-#header-left {
-  display: flex;
-  
-}
-
-#header-right {
-  display: flex;
-  max-width: 1200px;
+.headerTitle {
+  float: left;
+  padding: 20px;
 }
