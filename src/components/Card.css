@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex: 0.6 0 300px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.2), 0px -2px 1px -3px rgba(0,0,0,0.2);
+}
+
+.card-poster {
+  width: 190px;
+  height: 290px;
+  margin-right: 30px;
+}
+
+.card-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.info {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.link-ticket {
+  margin-top: auto;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #FC6141;
+  outline: none;
+  color: white;
+  text-shadow: 0 1px 1px #000;
+  box-shadow:   0 2px 3px 0 rgba(0,0,0,0.15)
+}

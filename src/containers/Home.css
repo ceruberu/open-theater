@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-filter {
+  height: 40px;
+}
+
+.nav-icon {
+  padding: 10px;
+  float: right;
+}
