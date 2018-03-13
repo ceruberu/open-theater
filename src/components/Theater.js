@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Theater.css';
 import MockData from '../MockData.json';
+<<<<<<< HEAD
 // import Calendar from './Calendar';
 import Banner from '../images/inception_banner.jpg';
 
@@ -53,12 +54,20 @@ class Theater extends Component {
             예매
           </div>
         </div>
+=======
+class Theater extends Component {
+  render() {
+    console.log("MOCK:: ", MockData);
+    return (
+      <div id="theater">
+>>>>>>> 8849dcc518ece9bcd5a382cad0e507629c58e02b
       </div>
     );
   }
 }
 
 export default Theater;
+<<<<<<< HEAD
 
 // <Calendar
 // daysOfWeek={MockTheater.Days_Of_Week}
@@ -69,3 +78,5 @@ export default Theater;
 // handleDayClick={this.handleDayClick}
 // modifyDaysOfWeek={this.modifyDaysOfWeek}
 // />
+=======
+>>>>>>> 8849dcc518ece9bcd5a382cad0e507629c58e02b

@@ -13,6 +13,9 @@ class Header extends Component {
         <div id="header">
           <div id="header-left">
             <h1 className="headerTitle">Open Theater</h1>
+<<<<<<< HEAD
+>>>>>>> 8849dcc518ece9bcd5a382cad0e507629c58e02b
+=======
 >>>>>>> 8849dcc518ece9bcd5a382cad0e507629c58e02b
           </div>
         </div>
