@@ -4,19 +4,19 @@
   border-radius: 7px;
 }
 
-.theater-banner {
+.show-banner {
   width: 100%;
   height: 400px;
   /* overflow:hidden; */
   background-position: center;
 }
 
-.theater-inner {
+.show-inner {
   display: flex;
   padding: 30px;
 }
 
-.theater-info {
+.show-info {
   flex: 1;
 }
 
@@ -25,12 +25,12 @@
   margin-bottom: 10px;
 }
 
-.theater-still {
+.show-still {
   max-width: 1200px;
   max-height: 800px;
 }
 
-.theater-poster {
+.show-poster {
   border-radius: 5px;
   margin-top: -160px;
   width: 190px;

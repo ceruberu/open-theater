@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Theater.css';
+import './Show.css';
 import MockData from '../MockData.json';
 import StillBanner from '../images/still-banner.jpg';
 import Poster from '../images/poster1.jpg';
@@ -38,27 +38,27 @@ class Theater extends Component {
   }
 
   render() {
-    const MockTheater = MockData.Theaters[0];
+    const MockShow = MockData.Theaters[0];
     const BannerStyle = {
       backgroundImage: `url(${StillBanner})`
     }
     return (
       <div className="content container">
-        <div className="theater-banner" style={BannerStyle} alt="Theater Banner">
-          <div className="theater-still" alt="Theater Banner" />
+        <div className="show-banner" style={BannerStyle} alt="show Banner">
+          <div className="show-still" alt="show Banner" />
         </div>
-        <div className="theater-inner">
-          <img className="theater-poster" src={Poster} alt="Theater Poster" /> 
-          <div className="theater-info">
+        <div className="show-inner">
+          <img className="show-poster" src={Poster} alt="show Poster" /> 
+          <div className="show-info">
             <h2 className="info">신과함께</h2>
-            <div className="theater-publisher">제작: <span>{MockTheater.Publisher}</span></div>
-            <div className="theater-writer">작가: <span>{MockTheater.Writer}</span></div>
-            <div className="theater-director">감독: <span>{MockTheater.Director}</span></div>
-            <div className="theater-cast"> 출연: <span>{MockTheater.Cast.join(", ")}</span></div>
+            <div className="show-publisher">제작: <span>{MockShow.Publisher}</span></div>
+            <div className="show-writer">작가: <span>{MockShow.Writer}</span></div>
+            <div className="show-director">감독: <span>{MockShow.Director}</span></div>
+            <div className="show-cast"> 출연: <span>{MockShow.Cast.join(", ")}</span></div>
           </div>
         </div>
-        <div className="theater-overview">
-          
+        <div className="show-overview">
+
         </div>
       </div>
     );
