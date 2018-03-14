@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../components/Card';
 import './Home.css';
-import MockData from '../MockData.json';
 
 class Home extends Component {
   render() {

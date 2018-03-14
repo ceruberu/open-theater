@@ -23,7 +23,13 @@
   margin-bottom: 10px;
 }
 
+.link-theater {
+  text-decoration: none;
+  color: black;
+}
+
 .link-ticket {
+  text-decoration: none;
   margin-top: auto;
   border: none;
   cursor: pointer;
